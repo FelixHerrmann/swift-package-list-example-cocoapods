@@ -3,20 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		9D1976772CB89BFE00ED3D27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1976712CB89BFE00ED3D27 /* Preview Assets.xcassets */; };
+		9D1976782CB89BFE00ED3D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1976732CB89BFE00ED3D27 /* Assets.xcassets */; };
+		9D1976792CB89BFE00ED3D27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1976742CB89BFE00ED3D27 /* ContentView.swift */; };
+		9D19767A2CB89BFE00ED3D27 /* SwiftPackageListCocoapodsExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1976752CB89BFE00ED3D27 /* SwiftPackageListCocoapodsExampleApp.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D19764E2CB89B3B00ED3D27 /* SwiftPackageListCocoapodsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPackageListCocoapodsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1976712CB89BFE00ED3D27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D1976732CB89BFE00ED3D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D1976742CB89BFE00ED3D27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9D1976752CB89BFE00ED3D27 /* SwiftPackageListCocoapodsExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackageListCocoapodsExampleApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		9D1976502CB89B3B00ED3D27 /* SwiftPackageListCocoapodsExample */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftPackageListCocoapodsExample;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9D19764B2CB89B3B00ED3D27 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		9D1976452CB89B3B00ED3D27 = {
 			isa = PBXGroup;
 			children = (
-				9D1976502CB89B3B00ED3D27 /* SwiftPackageListCocoapodsExample */,
+				9D1976762CB89BFE00ED3D27 /* SwiftPackageListCocoapodsExample */,
 				9D19764F2CB89B3B00ED3D27 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,25 @@
 				9D19764E2CB89B3B00ED3D27 /* SwiftPackageListCocoapodsExample.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9D1976722CB89BFE00ED3D27 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9D1976712CB89BFE00ED3D27 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9D1976762CB89BFE00ED3D27 /* SwiftPackageListCocoapodsExample */ = {
+			isa = PBXGroup;
+			children = (
+				9D1976722CB89BFE00ED3D27 /* Preview Content */,
+				9D1976732CB89BFE00ED3D27 /* Assets.xcassets */,
+				9D1976742CB89BFE00ED3D27 /* ContentView.swift */,
+				9D1976752CB89BFE00ED3D27 /* SwiftPackageListCocoapodsExampleApp.swift */,
+			);
+			path = SwiftPackageListCocoapodsExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				9D1976502CB89B3B00ED3D27 /* SwiftPackageListCocoapodsExample */,
 			);
 			name = SwiftPackageListCocoapodsExample;
 			packageProductDependencies = (
@@ -86,6 +105,7 @@
 				};
 			};
 			buildConfigurationList = 9D1976492CB89B3B00ED3D27 /* Build configuration list for PBXProject "SwiftPackageListCocoapodsExample" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -93,8 +113,6 @@
 				Base,
 			);
 			mainGroup = 9D1976452CB89B3B00ED3D27;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 9D19764F2CB89B3B00ED3D27 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -109,6 +127,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1976772CB89BFE00ED3D27 /* Preview Assets.xcassets in Resources */,
+				9D1976782CB89BFE00ED3D27 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1976792CB89BFE00ED3D27 /* ContentView.swift in Sources */,
+				9D19767A2CB89BFE00ED3D27 /* SwiftPackageListCocoapodsExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
