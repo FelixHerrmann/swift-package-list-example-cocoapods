@@ -6,5 +6,5 @@ target 'SwiftPackageListCocoapodsExample' do
   use_frameworks!
 
   # Pods for SwiftPackageListCocoapodsExample
-
+  pod 'Firebase', '~> 11.0'
 end
