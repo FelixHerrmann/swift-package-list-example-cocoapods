@@ -109,6 +109,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9D19767D2CB8A06500ED3D27 /* PBXTargetDependency */,
 			);
 			name = SwiftPackageListCocoapodsExample;
 			productName = SwiftPackageListCocoapodsExample;
@@ -141,6 +142,7 @@
 			mainGroup = 9D1976452CB89B3B00ED3D27;
 			packageReferences = (
 				9D1976802CB8A1C700ED3D27 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				9D19767B2CB8A04C00ED3D27 /* XCRemoteSwiftPackageReference "swift-package-list" */,
 			);
 			productRefGroup = 9D19764F2CB89B3B00ED3D27 /* Products */;
 			projectDirPath = "";
@@ -216,6 +218,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D19767D2CB8A06500ED3D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 9D19767C2CB8A06500ED3D27 /* SwiftPackageListPlugin */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9D19765A2CB89B3C00ED3D27 /* Debug */ = {
@@ -429,6 +438,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		9D19767B2CB8A04C00ED3D27 /* XCRemoteSwiftPackageReference "swift-package-list" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FelixHerrmann/swift-package-list.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -436,6 +453,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9D1976802CB8A1C700ED3D27 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
 			productName = Algorithms;
+		};
+		9D19767C2CB8A06500ED3D27 /* SwiftPackageListPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D19767B2CB8A04C00ED3D27 /* XCRemoteSwiftPackageReference "swift-package-list" */;
+			productName = "plugin:SwiftPackageListPlugin";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
