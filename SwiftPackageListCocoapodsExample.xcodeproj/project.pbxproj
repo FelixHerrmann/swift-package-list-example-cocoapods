@@ -12,6 +12,7 @@
 		9D1976792CB89BFE00ED3D27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1976742CB89BFE00ED3D27 /* ContentView.swift */; };
 		9D19767A2CB89BFE00ED3D27 /* SwiftPackageListCocoapodsExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1976752CB89BFE00ED3D27 /* SwiftPackageListCocoapodsExampleApp.swift */; };
 		9D1976822CB8A1C700ED3D27 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 9D1976812CB8A1C700ED3D27 /* Algorithms */; };
+		9D1976872CB8A71B00ED3D27 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D1976862CB8A71B00ED3D27 /* Settings.bundle */; };
 		B89590742796A538627EA97B /* Pods_SwiftPackageListCocoapodsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C079492334A7837F41D55AF9 /* Pods_SwiftPackageListCocoapodsExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		9D1976732CB89BFE00ED3D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D1976742CB89BFE00ED3D27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D1976752CB89BFE00ED3D27 /* SwiftPackageListCocoapodsExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackageListCocoapodsExampleApp.swift; sourceTree = "<group>"; };
+		9D1976862CB8A71B00ED3D27 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		C079492334A7837F41D55AF9 /* Pods_SwiftPackageListCocoapodsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPackageListCocoapodsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F21BF745C21162E0FC7550 /* Pods-SwiftPackageListCocoapodsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPackageListCocoapodsExample.debug.xcconfig"; path = "Target Support Files/Pods-SwiftPackageListCocoapodsExample/Pods-SwiftPackageListCocoapodsExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 		9D1976762CB89BFE00ED3D27 /* SwiftPackageListCocoapodsExample */ = {
 			isa = PBXGroup;
 			children = (
+				9D1976862CB8A71B00ED3D27 /* Settings.bundle */,
 				9D1976722CB89BFE00ED3D27 /* Preview Content */,
 				9D1976732CB89BFE00ED3D27 /* Assets.xcassets */,
 				9D1976742CB89BFE00ED3D27 /* ContentView.swift */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D1976772CB89BFE00ED3D27 /* Preview Assets.xcassets in Resources */,
+				9D1976872CB8A71B00ED3D27 /* Settings.bundle in Resources */,
 				9D1976782CB89BFE00ED3D27 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
